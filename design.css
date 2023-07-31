@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.container{
+
+    height: 100svh;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.container2{
+    display: grid;
+    grid-template-rows: 4;
+    text-align: center;
+    
+   
+}
+
+.container3{
+    background-color:#ffffff;
+     padding: 2rem; 
+    margin-top: 1rem;
+    border-radius: 10px;
+    box-shadow: black;
+    
+     
+}
+
+/* arrangement of the form */
+
+form{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: grid;
+    grid-template-rows: 3;
+    row-gap: 1rem;
+
+}
+
+/* desigining of the input field */
+input{
+    height: 3rem;
+    width: 18rem;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: none;
+    opacity: 0.85;
+   
+}
+
+/* giving blue color to the text in blue */
+
+span{
+    color: #1877f2;
+} 
+  /* creating the line for the or word */
+.linecr{
+    display: flex;
+    align-items: center;
+}
+
+hr{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    flex-grow: 1;
+    height: 1px;
+    background-color: #ccc;
+}
+
+.orword{
+
+    padding: 0 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* design of the two button */
+#btn1{
+    background-color: #1877f2;
+    color: #ffffff;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#btn2{
+    background-color: #42b72a;
+    padding: 0.9rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+/* removing text decoration for the forgotten account part */
+
+#p2{
+    text-decoration: none;
+
+}
+
+/* design of the login button */
+
+#login{
+    font-weight: bold;
+}
+
+
+
+a{
+    text-decoration: none;
+    
+}
